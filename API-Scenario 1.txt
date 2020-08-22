@@ -1,0 +1,20 @@
+https://github.com/Biswajitp245/Assignment.git
+
+What is the purpose of this API? 
+
+There are two apis
+1.is to get company data using domain name
+2.is to set company data is accurate or not based on the response of 1st api
+
+What is your strategy to test it?
+
+1.to test this api, will use postman
+2.will test api using positive and negative scenrios using get and post as mentioned for api
+3.validate the api response based on the api document, here response means status code and attributes provided in the doc
+
+Prepare the sample input test dataset?
+1.valid domain
+2.invalid domain
+3.domian valid,company not found
+4.hit multiple request with valid domains at the same time, to check api behaviour
+5.authentication wrong
